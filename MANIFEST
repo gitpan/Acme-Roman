@@ -1,0 +1,12 @@
+Build.PL
+Changes
+eg/roman.pl
+lib/Acme/Roman.pm
+MANIFEST			This list of files
+META.yml
+README
+t/01_use.t
+t/02_objects.t
+t/03_autoload.t
+#t/98_pod-coverage.t
+t/99_pod.t

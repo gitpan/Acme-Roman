@@ -1,0 +1,12 @@
+Revision history for Perl extension Acme::Roman.
+
+    $Id: Changes 560 2006-07-17 16:52:16Z me $
+
+0.0.2  Jun 29 2007
+       - I + 'II' is alright
+       - def_prototypes gets twice as fast using set_prototype
+         (from Scalar::Util) rather than eval STRING
+       - example at eg/roman.pl
+
+0.0.1  Jun 28 2007
+       - First unreleased version.
