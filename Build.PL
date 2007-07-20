@@ -3,7 +3,7 @@ use Module::Build;
 
 Module::Build->new(
     module_name => 'Acme::Roman',
-    license     => 'perl',
+    license     => 'mit',
     dist_author      => 'Adriano R. Ferreira <ferreira@cpan.org>',
     dist_version_from => 'lib/Acme/Roman.pm',
 
@@ -20,16 +20,20 @@ Module::Build->new(
     },
 
     build_requires => {
-        'Module::Build'   => 0,
+        'Module::Build'   => 0, # XXX
         'Test::More'      => 0,
     },
     recommends     => {
-        Test::Pod    => 1.18,
+        Test::Pod           => 1.18,
         Test::Pod::Coverage => 1.04, 
+    },
+    meta_merge     => {
+        configure_requires   => { 
+            'Module::Build' => 0, 
+        },
     },
 
     create_readme => 1,
 
 
 )->create_build_script;
-

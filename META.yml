@@ -1,12 +1,12 @@
 ---
 name: Acme-Roman
-version: v0.0.2
+version: 0.0.2.9
 author:
   - 'Adriano R. Ferreira <ferreira@cpan.org>'
 abstract: Do maths like Romans did
-license: perl
+license: mit
 resources:
-  license: http://dev.perl.org/licenses/
+  license: http://opensource.org/licenses/mit-license.php
 requires:
   Carp: 0
   Class::Accessor: 0
@@ -26,8 +26,10 @@ recommends:
 provides:
   Acme::Roman:
     file: lib/Acme/Roman.pm
-    version: v0.0.2
+    version: 0.0.2.9
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
+configure_requires:
+  Module::Build: 0

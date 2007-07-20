@@ -4,7 +4,7 @@ package Acme::Roman;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv(0.0.2);
+use version; our $VERSION = qv('0.0.2.9');
 
 require Roman;
 use Carp qw( croak );
@@ -22,9 +22,13 @@ use overload
 ;
 
 # aliases to Roman functions, whose names dislike me
-*is_roman  = \&Roman::isroman;
 *to_roman  = \&Roman::Roman;
 *to_number = \&Roman::arabic;
+
+sub is_roman {
+    return "" if $_[0] =~ /[^IVXLCDM]/; # false: accept nothing but uppercase
+    return Roman::isroman(shift);
+}
 
 sub new {
     my $proto = shift;
@@ -172,6 +176,7 @@ Adriano R. Ferreira E<lt>ferreira@cpan.orgE<gt>
 Copyright (c) 2007 Adriano R. Ferreira
 
 The Acme::Roman module is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself.
+modify it under the terms of the Artistic 2.0 licence (the same terms 
+as future Perl releases).
 
 =cut

@@ -55,5 +55,6 @@ COPYRIGHT
     Copyright (c) 2007 Adriano R. Ferreira
 
     The Acme::Roman module is free software; you can redistribute it and/or
-    modify it under the same terms as Perl itself.
+    modify it under the terms of the Artistic 2.0 licence (the same terms as
+    future Perl releases).
 
