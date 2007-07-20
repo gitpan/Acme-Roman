@@ -4,7 +4,7 @@ package Acme::Roman;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv('0.0.2.9');
+use version; our $VERSION = qv('0.0.2.10');
 
 require Roman;
 use Carp qw( croak );

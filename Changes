@@ -2,11 +2,8 @@ Revision history for Perl extension Acme::Roman.
 
     $Id: Changes 560 2006-07-17 16:52:16Z me $
 
-       TODO:
-       + Acme::Roman::AUTOLOAD - declares Acme::Roman::XX, etc.
-       + imported AUTOLOAD - exports XX, etc.
-       + document in "begin private"
-       + pass "t/98_pod-coverage.t"
+0.0.2.10 Jul 20 2007
+       - "license => 'mit'" slipped instead of "license => 'artistic2'"
 
 0.0.2.9  Jul 20 2007
        - make sure only uppercase (I, II, X) is accepted
@@ -24,3 +21,11 @@ Revision history for Perl extension Acme::Roman.
 
 0.0.1  Jun 28 2007
        - First unreleased version.
+
+       TODO:
+       + Acme::Roman::AUTOLOAD - declares Acme::Roman::XX, etc.
+       + imported AUTOLOAD - exports XX, etc.
+       + document in "begin private"
+       + pass "t/98_pod-coverage.t"
+       + POD in example files
+
