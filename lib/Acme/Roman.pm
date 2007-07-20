@@ -4,7 +4,7 @@ package Acme::Roman;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv('0.0.2.10');
+use version; our $VERSION = qv('0.0.2.11');
 
 require Roman;
 use Carp qw( croak );
@@ -176,7 +176,6 @@ Adriano R. Ferreira E<lt>ferreira@cpan.orgE<gt>
 Copyright (c) 2007 Adriano R. Ferreira
 
 The Acme::Roman module is free software; you can redistribute it and/or
-modify it under the terms of the Artistic 2.0 licence (the same terms 
-as future Perl releases).
+modify it under the same terms as Perl itself.
 
 =cut

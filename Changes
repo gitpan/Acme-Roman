@@ -2,6 +2,13 @@ Revision history for Perl extension Acme::Roman.
 
     $Id: Changes 560 2006-07-17 16:52:16Z me $
 
+0.0.2.11 Jul 20 2007
+       - search.cpan and Module::Build are not ready yet
+         for artistic2 (even though CPAN is) - back to 
+         Perl licenses
+       - Damn! 5.9.5 keeps warning about "v-string in use/require non-portable"
+         because Roman 1.20 uses "use 5.6.0"
+
 0.0.2.10 Jul 20 2007
        - "license => 'mit'" slipped instead of "license => 'artistic2'"
 

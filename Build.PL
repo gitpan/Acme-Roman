@@ -3,7 +3,7 @@ use Module::Build;
 
 Module::Build->new(
     module_name => 'Acme::Roman',
-    license     => 'perl', #'artistic2',
+    license     => 'perl', 
     dist_author      => 'Adriano R. Ferreira <ferreira@cpan.org>',
     dist_version_from => 'lib/Acme/Roman.pm',
 
@@ -20,7 +20,6 @@ Module::Build->new(
     },
 
     build_requires => {
-        'Module::Build'   => 0, # XXX
         'Test::More'      => 0,
     },
     recommends     => {
