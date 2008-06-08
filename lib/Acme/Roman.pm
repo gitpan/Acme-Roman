@@ -4,7 +4,7 @@ package Acme::Roman;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv('0.0.2.11');
+use version; our $VERSION = qv('0.0.2.12');
 
 require Roman;
 use Carp qw( croak );
@@ -163,17 +163,15 @@ If you find a bug, tell Julio Caesar from a respectful and safe distance.
 (He's always looking for entertainment at the circus. And lions are
 ever hungry.) If you prefer, you might file a report at 
 http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Roman or via e-mail at 
-bug-Acme-Roman@rt.cpan.org. (Hey, CPAN RT does not like me and I never
-get the bug reports. So, for now, you might like to include me in
-the receivers list.)
+bug-Acme-Roman@rt.cpan.org. (Ok, CPAN RT now likes me again.)
 
 =head1 AUTHOR
 
 Adriano R. Ferreira E<lt>ferreira@cpan.orgE<gt>
 
-=head1 COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2007 Adriano R. Ferreira
+Copyright (c) 2007, 2008 Adriano R. Ferreira
 
 The Acme::Roman module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.

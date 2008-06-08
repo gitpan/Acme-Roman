@@ -2,6 +2,11 @@ Revision history for Perl extension Acme::Roman.
 
     $Id: Changes 560 2006-07-17 16:52:16Z me $
 
+0.0.2.12 Jun 06 2008
+       - no code changes
+       - has a POD coverage test (skipped, but has one)
+       - you know, gotta please CPANTS
+
 0.0.2.11 Jul 20 2007
        - search.cpan and Module::Build are not ready yet
          for artistic2 (even though CPAN is) - back to 

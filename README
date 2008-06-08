@@ -44,15 +44,13 @@ BUGS
     distance. (He's always looking for entertainment at the circus. And
     lions are ever hungry.) If you prefer, you might file a report at
     http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Roman or via e-mail at
-    bug-Acme-Roman@rt.cpan.org. (Hey, CPAN RT does not like me and I never
-    get the bug reports. So, for now, you might like to include me in the
-    receivers list.)
+    bug-Acme-Roman@rt.cpan.org. (Ok, CPAN RT now likes me again.)
 
 AUTHOR
     Adriano R. Ferreira <ferreira@cpan.org>
 
-COPYRIGHT
-    Copyright (c) 2007 Adriano R. Ferreira
+COPYRIGHT AND LICENSE
+    Copyright (c) 2007, 2008 Adriano R. Ferreira
 
     The Acme::Roman module is free software; you can redistribute it and/or
     modify it under the same terms as Perl itself.

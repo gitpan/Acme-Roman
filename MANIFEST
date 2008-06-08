@@ -14,5 +14,5 @@ README
 t/01_use.t
 t/02_objects.t
 t/03_autoload.t
-#t/98_pod-coverage.t
+t/98_pod-coverage.t
 t/99_pod.t

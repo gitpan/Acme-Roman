@@ -1,6 +1,6 @@
 ---
 name: Acme-Roman
-version: 0.0.2.11
+version: 0.0.2.12
 author:
   - 'Adriano R. Ferreira <ferreira@cpan.org>'
 abstract: Do maths like Romans did
@@ -25,8 +25,8 @@ recommends:
 provides:
   Acme::Roman:
     file: lib/Acme/Roman.pm
-    version: 0.0.2.11
-generated_by: Module::Build version 0.2808
+    version: 0.0.2.12
+generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
